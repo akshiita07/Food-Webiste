@@ -1,0 +1,61 @@
+/* To make food website responsive in our phones */
+*{
+    text-align: center;
+}
+#navbar{
+    flex-direction: column;
+    width: 100vw;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#navbar ul li a {
+    font-size: 10px;
+}
+
+#services #allservices{
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before{
+    height: 750px;
+}
+
+#home{
+    margin: 150px 2px;
+}
+
+#home h1 {
+    font-size: 80px;
+    text-shadow: 7px 7px 3px white;
+}
+
+#home p {
+    font-size: 12px;
+    padding: 5px 5px;
+}
+
+
+#clients::before{
+    height: 100%;
+}
+
+#ourclients{
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#ourclients .logoclient img {
+    width: 100px;
+    height: 150px;
+}
+
+#contact::before{
+    height: 70%;
+}

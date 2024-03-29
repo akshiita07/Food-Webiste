@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Food in City | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="food.css">
+
+    <!-- linking my phone css for responsive -->
+    <link rel="stylesheet" media="screen and (max-width:1210px)" href="phone.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.webp" alt="MyOnlineMeal.com">
+        </div>
+        
+        <ul>
+            <li class="item"> <a href="#home">Home</a> </li>
+            <li class="item"> <a href="#services">Our Services</a> </li>
+            <li class="item"> <a href="#clients">Clients</a> </li>
+            <li class="item"> <a href="#contact">Contact Us</a> </li>
+        </ul>
+
+        <div id="search">
+            <form action="backend.php">
+                <label for="searchbox">
+                    &#128270;
+                </label>
+                <input type="text" placeholder="Search">
+            </form>
+
+        </div>
+    </nav>
+
+    <section id="home">
+        <p>CAFE/Restaurant</p>
+        <h1 class="primary-heading">
+            Touche
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur nobis, aperiam corporis possimus totam doloribus ipsa laudantium aliquid! Earum corporis voluptatum velit quis, quod facere asperiores facilis reiciendis et tempora? Pariatur, quaerat dolorem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur nobis, aperiam corporis possimus totam doloribus ipsa laudantium aliquid! Earum corporis voluptatum velit quis, quod facere asperiores facilis reiciendis et tempora? Pariatur, quaerat dolorem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur nobis, aperiam corporis possimus totam doloribus ipsa laudantium aliquid! Earum corporis voluptatum velit quis, quod facere asperiores facilis reiciendis et tempora? Pariatur, quaerat dolorem!</p>
+
+        <button class="btn">
+            Make Reservations!
+        </button>
+    </section>
+
+    <section id="services">
+        <h1 class="primary-heading">Our Services</h1>
+        <div id="allservices">
+
+            <div class="box" id="main_course" >
+                <img src="main_course.webp" alt="MyOnlineMeal.com">
+                <h2 class="sec-head">
+                    Main Course
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate natus qui asperiores mollitia corrupti aperiam doloribus, ea sequi? Ullam, delectus facilis. Non id eligendi necessitatibus ut incidunt voluptas sequi ipsa placeat optio, recusandae numquam veniam distinctio ipsum praesentium sit est.</p>
+            </div>
+
+
+            <div class="box" id="delivery">
+                <img src="delivery.jpg" alt="MyOnlineMeal.com">
+                <h2 class="sec-head">
+                    Food Delivery
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate natus qui asperiores mollitia corrupti aperiam doloribus, ea sequi? Ullam, delectus facilis. Non id eligendi necessitatibus ut incidunt voluptas sequi ipsa placeat optio, recusandae numquam veniam distinctio ipsum praesentium sit est.</p>
+            </div>
+
+
+            <div class="box" id="dessert">
+                <img src="dessert,jpg.webp" alt="MyOnlineMeal.com">
+                <h2 class="sec-head">
+                    Dessert
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate natus qui asperiores mollitia corrupti aperiam doloribus, ea sequi? Ullam, delectus facilis. Non id eligendi necessitatibus ut incidunt voluptas sequi ipsa placeat optio, recusandae numquam veniam distinctio ipsum praesentium sit est.</p>
+            </div>
+
+        </div>
+        
+    </section>
+    
+
+    <section id="clients">
+        <h1 class="primary-heading">Clients</h1>
+        <div id="ourclients">
+            <div class="logoclient">
+                <img src="logo/starbucks.png" alt="Client Loading">
+            </div>
+
+            <div class="logoclient">
+                <img src="logo/mc don.png" alt="Client Loading">
+            </div>
+
+            <div class="logoclient">
+                <img src="logo/niks.jpeg" alt="Client Loading">
+            </div>
+
+            <div class="logoclient">
+                <img src="logo/garam.jpeg" alt="Client Loading">
+            </div>
+
+            <div class="logoclient">
+                <img src="logo/tim hort.png" alt="Client Loading">
+            </div>
+            <div class="logoclient">
+                <img src="logo/sagar.png" alt="Client Loading">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="primary-heading">Contact Us!</h1>
+
+        <div id="contactus">
+            <form action="backend.php">
+
+                <div class="formcontact">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter your Name">
+                </div>
+
+                <div class="formcontact">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter your mail id">
+                </div>
+
+                <div class="formcontact">
+                    <label for="phone">Phone No.:</label>
+                    <input type="number" placeholder="Enter your phone no.">
+                </div>
+
+                <div class="formcontact">
+                    <label for="gender">Gender:</label>
+                    Male<input type="radio" name="gender" id="gender">
+                    Female<input type="radio" name="gender" id="gender">
+                    Other<input type="radio" name="gender" id="gender">
+                </div>
+
+                <div class="formcontact">
+                    <input type="submit" value="Submit Now">
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer id="end">
+        <p>Copyright &copy; www.MyOnlineMeal.com ALL RIGHTS RESERVED</p>
+    </footer>
+
+</body>
+</html>
